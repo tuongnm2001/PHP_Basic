@@ -11,15 +11,23 @@
     // echo $name[0] . " " . $name[1] . " ". $name[2]
 
     //Cach 3 
-    //$people = array("Mina" => "1998" , "Ben"=>"1990" , "Lio"=>"2005");
-    //echo $people["Ben"]
+    // $people = array("Mina" => "1998" , "Ben"=>"1990" , "Lio"=>"2005");
+    // echo $people["Ben"];
 
-    //Array da chieu
-    $myArr = array(
-        array("Mina" , "1998" , "UK"),
-        array("Ben" , "1990" , "US"),
-        array("Lio" , "2009" , "ARG")
-    );
+    // echo count($people1);
 
-    echo $myArr[2][0];
+    // //Array da chieu
+    // $myArr = array(
+    //     array("Mina" , "1998" , "UK"),
+    //     array("Ben" , "1990" , "US"),
+    //     array("Lio" , "2009" , "ARG")
+    // );
+
+    // echo $myArr[2][0];
+
+    $name = array("Nguyen", "Minh" , "Tuong");
+
+    unset($name['1']);
+
+    print_r($name);
 ?>
