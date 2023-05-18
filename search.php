@@ -16,3 +16,7 @@
     Name : <input type='text' name ='name'/>
     <input type='submit'/>
 </form>
+
+<?php 
+   echo "Hôm nay ngày " .  date('d-m-Y')
+?>
