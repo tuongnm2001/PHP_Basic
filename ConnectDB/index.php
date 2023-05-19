@@ -35,7 +35,21 @@
     // }
 
     //DETELE USER 
-    $sql = "DELETE FROM `users` WHERE id='26' ";
-    mysqLi_query($conn , $sql);
+    // $sql = "DELETE FROM `users` WHERE id='26' ";
+    // mysqLi_query($conn , $sql);
+
+    // UPDATE USER
+
+    $id = 14;
+    $firstName = 'HAAH';
+    $lastName = 'scsc';
+    $email = 'scsdc';
+    $emailVerifiedAt = 'sdcscdwef';
+    $password = '23525';
+    $rememberToken = 'ewrgerge';
+
+    $sql = "UPDATE users SET id='$id', firstName ='$firstName' , lastName ='$lastName' , email ='$email' , emailVerifiedAt='$emailVerifiedAt' ,
+    password='$password' , rememberToken ='$rememberToken' WHERE id=14 ";
    
+    mysqli_query($conn , $sql);
 ?>
